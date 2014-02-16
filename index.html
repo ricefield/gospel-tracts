@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  ....
+  <link rel="stylesheet" href="path_to_css/idangerous.swiper.css">
+  <script defer src="path_to_js/idangerous.swiper-2.x.min.js"></script>
+  ....
+</head>
+
+<body>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+      
+        <!-- THE MYSTERY OF HUMAN LIFE -->
+        <div id="title" class="swiper-slide"> 
+        <!-- Any HTML content of the first slide goes here -->
+        </div>
+
+        <!-- 1. GOD'S PLAN -->
+        <div class="swiper-slide">
+        <!-- Any HTML content of the second slide goes here -->
+        </div>
+
+        <!-- 2. MAN -->
+        <div class="swiper-slide"> 
+        <!-- Any HTML content of the third slide goes here -->
+        </div>
+      
+        <!-- 3. MAN'S FALL -->
+        <div class="swiper-slide"> 
+        <!-- Any HTML content of the third slide goes here -->
+        </div>
+      
+        <!-- 4. CHRIST'S REDEMPTION FOR GOD'S DISPENSING -->
+        <div class="swiper-slide"> 
+        <!-- Any HTML content of the third slide goes here -->
+        </div>
+
+        <!-- 5. MAN'S REGENERATION -->
+        <div class="swiper-slide"> 
+        <!-- Any HTML content of the third slide goes here -->
+        </div>
+      
+        <!-- PRAYER -->
+        <div class="swiper-slide"> 
+        <!-- Any HTML content of the third slide goes here -->
+        </div>
+      
+        <!-- 6. GOD'S FULL SALVATION -->
+        <div class="swiper-slide"> 
+        <!-- Any HTML content of the third slide goes here -->
+        </div>
+      
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+/*======
+Use document ready or window load events
+For example:
+With jQuery: $(function() { ...code here... })
+Or window.onload = function() { ...code here ...}
+Or document.addEventListener('DOMContentLoaded', function(){ ...code here... }, false)
+=======*/
+
+window.onload = function() {
+  var mySwiper = new Swiper('.swiper-container',{
+    //Your options here:
+    mode:'horizontal',
+    loop: true
+    //etc..
+  });  
+}
+
+/*
+Or with jQuery/Zepto
+*/
+$(function(){
+  var mySwiper = $('.swiper-container').swiper({
+    //Your options here:
+    mode:'horizontal',
+    loop: true
+    //etc..
+  });
+})
+
+</script>
+    
+</body></html>
