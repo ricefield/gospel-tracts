@@ -2,8 +2,8 @@
 <html>
 <head>
 
-  <link rel="stylesheet" href="path_to_css/idangerous.swiper.css">
-  <script defer src="path_to_js/idangerous.swiper-2.x.min.js"></script>
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
+  <script defer src="js/idangerous.swiper-2.x.min.js"></script>
 
 </head>
 
@@ -89,34 +89,15 @@ glorification (Phil. 3:21). Thus, instead of being empty and damaged in each par
 
 
 <script type="text/javascript">
-/*======
-Use document ready or window load events
-For example:
-With jQuery: $(function() { ...code here... })
-Or window.onload = function() { ...code here ...}
-Or document.addEventListener('DOMContentLoaded', function(){ ...code here... }, false)
-=======*/
 
-window.onload = function() {
-  var mySwiper = new Swiper('.swiper-container',{
-    //Your options here:
-    mode:'horizontal',
-    loop: true
-    //etc..
-  });  
-}
-
-/*
-Or with jQuery/Zepto
-*/
-$(function(){
-  var mySwiper = $('.swiper-container').swiper({
-    //Your options here:
-    mode:'horizontal',
-    loop: true
-    //etc..
-  });
-})
+    window.onload = function() {
+      var mySwiper = new Swiper('.swiper-container',{
+        //Your options here:
+        mode:'horizontal',
+        loop: true
+        //etc..
+      });  
+    }
 
 </script>
     
