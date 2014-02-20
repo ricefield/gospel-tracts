@@ -6,6 +6,12 @@ p {
     font-size: 20px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 blockquote {
     font-size: 24px;
 }
@@ -15,3 +21,5 @@ blockquote {
     font-family: Garamond, serif;
     text-align: center;
 }
+
+    
