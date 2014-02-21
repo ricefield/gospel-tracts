@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script defer src="js/idangerous.swiper.js"></script>
+    <script src="js/jquery.js"></script>
     
    <title>The Mystery of Human Life</title>
 
@@ -34,7 +35,11 @@
         <div id="godsplan" class="swiper-slide container">
             <h2>God's Plan</h2>
             
-            <p>God desires to express Himself through man (Rom. 8:29). For this purpose, He created man in His own image (Gen. 1:26). Just as a glove is made in the image of a hand to contain a hand, so also man is made in the image of God to contain God. By receiving God as his content, man can express God (2 Cor. 4:7).</p>
+            <p>God desires to express Himself through man (<a id="rom8-29ref">Rom. 8:29</a>). 
+            <span class="verse" id="rom8-29v">
+            Because those whom He foreknew, He also predestinated to be conformed to the image of His Son, that He might be the Firstborn among many brothers;
+            </span>
+            For this purpose, He created man in His own image (Gen. 1:26). Just as a glove is made in the image of a hand to contain a hand, so also man is made in the image of God to contain God. By receiving God as his content, man can express God (2 Cor. 4:7).</p>
         </div>
 
         <!-- 2. MAN -->
@@ -100,16 +105,20 @@ glorification (Phil. 3:21). Thus, instead of being empty and damaged in each par
 
 
 <script type="text/javascript">
+    $(document).ready(function(){
 
-    window.onload = function() {
-      var mySwiper = new Swiper('.swiper-container',{
-        //Your options here:
-        mode:'horizontal',
-        loop: false
-        //etc..
-      });  
-    }
+        var mySwiper = new Swiper('.swiper-container',{
+            //Your options here:
+            mode:'horizontal',
+            loop: false
+            //etc..
+        });  
 
+        $("#rom8-29ref").click(function(){
+            $("#rom8-29v").toggle("fast");
+        });
+    });
 </script>
+
     
 </body></html>

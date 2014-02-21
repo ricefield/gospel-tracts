@@ -13,11 +13,16 @@ img {
 }
 
 blockquote {
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.verse {
+    display: none;
+    font-style: italic;
 }
 
 #title h1 {
-    font-size: 60px;
+    font-size: 48px;
     text-align: center;
 }
 
