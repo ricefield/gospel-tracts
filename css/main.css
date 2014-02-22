@@ -17,8 +17,12 @@ blockquote {
 }
 
 .verse {
-    display: none;
+    display:inline-block;
     font-style: italic;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin: 5px;
+    border-left: 5px solid #eee;
 }
 
 #title h1 {
