@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.mohl.app"
+        version     = "0.1.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Mystery of Human Life</name>
+
+    <description>
+        The Mystery of Human Life (mobile)
+    </description>
+
+    <author href="http://github.com/ricefield" email="jonathan.tien+mohlapp@gmail.com">
+        Jonathan Tien
+    </author>
+
+    <preference name="phonegap-version" value="3.1.0" />
+    <preference name="fullscreen" value="true" />
+    <preference name="splash-screen-duration" value="1"/>
+
+</widget>
