@@ -73,8 +73,8 @@ sizes, pagination, etc.
 .swiper-container {
 	/* Specify Swiper's Size: */
 
-	/*width:200px;
-	height: 100px;*/
+	width: 100%;
+	height: 100%;
 }
 .swiper-slide {
 	/* Specify Slides's Size: */
@@ -93,15 +93,22 @@ sizes, pagination, etc.
 /* ===============================================================
 Pagination Styles
 ================================================================*/
+#pagination {
+  position: absolute;
+  z-index: 20;
+  right: 5px;
+}
 .swiper-pagination-switch {
-	/* Stylize pagination button: */	
-
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  margin-right: 5px;
+  opacity: 0.8;
+  border: 1px solid #d3d3d3;
+  cursor: pointer;
 }
 .swiper-active-switch {
-	/* Specific active button style: */	
-	
-}
-.swiper-visible-switch {
-	/* Specific visible button style: */	
-	
+  background: #fff;
 }
