@@ -72,7 +72,6 @@ h1, h2, h3, h4 {
 }
 
 .menu-item {
-  width: 100%;
   margin: 0px;
   padding: 50px;
 }
@@ -80,7 +79,8 @@ h1, h2, h3, h4 {
 .menu-item h2 {
   color: white;
   text-decoration: none !important;
-}
+  text-shadow: 1px 1px #555555;
+  }
 
 
 /* ==========================================================================
