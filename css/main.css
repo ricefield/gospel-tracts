@@ -73,7 +73,7 @@ h1, h2, h3, h4 {
 
 .menu-item {
   margin: 0px;
-  padding: 30px;
+  padding: 40px;
 }
 
 .menu-item h2 {
@@ -81,7 +81,22 @@ h1, h2, h3, h4 {
   color: white;
   text-decoration: none !important;
   text-shadow: 1px 1px #555555;
-  }
+}
+
+#vaccuum {
+  background: url('../img/vaccuum.png');
+  background-position: 0% 30%;
+}
+
+#whoisjesus {
+  background: url('../img/whoisjesus.jpg');
+  background-position: 35% 55%;
+}
+
+#luke15 {
+  background: url('../img/luke15.png');
+  background-position: 0% 25%;
+}
 
 
 /* ==========================================================================
