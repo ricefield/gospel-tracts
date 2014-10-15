@@ -36,6 +36,26 @@ img {
   width: auto;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+#headline {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+blockquote p {
+  font-size: 20px;
+  line-height: 1.4em;
+  font-style: italic;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
 /*******************************************************************
 
 This chunk is for Google's Code Prettify:
