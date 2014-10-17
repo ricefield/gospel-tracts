@@ -43,7 +43,9 @@ p {
 
 #headline {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 32px;
+  text-align: right;
+  line-height: 0.9em;
 }
 
 blockquote p {
