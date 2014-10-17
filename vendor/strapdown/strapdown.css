@@ -67,6 +67,10 @@ blockquote p {
   line-height: 18px;
 }
 
+.share {
+  text-align: center;
+}
+
 /*******************************************************************
 
 This chunk is for Google's Code Prettify:
